@@ -17,6 +17,7 @@ namespace PertaminaQuestionnaire.Controllers
             _context = context;
         }
 
+        //feedbacks?location_id={location_id}
         [HttpGet]
         public BaseResponse<List<Feedback>> GetAll([System.Web.Http.FromUri] long location_id)
         {
@@ -30,6 +31,7 @@ namespace PertaminaQuestionnaire.Controllers
             }
         }
 
+        //feedbacks/{id}
         [HttpGet("{id}")]
         public BaseResponse<Feedback> GetById(int id)
         {

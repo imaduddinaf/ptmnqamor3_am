@@ -15,16 +15,32 @@ namespace PertaminaQuestionnaire.Controllers
             _context = context;
         }
 
-        [HttpGet]
-        public BaseResponse<List<Location>> GetAll()
+        //locations?parent_id={parent_id}
+        [HttpGet] 
+        public BaseResponse<List<Location>> GetAll([System.Web.Http.FromUri] long parent_id)
         {
-            return Helper<List<Location>>.GetJSONResponse(true, null, _context.Locations.ToList());
+            if (parent_id > 0) 
+            {
+                return GetByParentId(parent_id);
+            }
+            else
+            {
+                return Helper<List<Location>>.GetJSONResponse(true, null, _context.Locations.ToList());
+            }
         }
 
-        [HttpGet("{id}", Name = "GetLocationByIdJSON")]
+        //locations/{id}
+        [HttpGet("{id}")]
         public BaseResponse<Location> GetByIdJSON(long id)
         {
             return Helper<Location>.GetJSONResponse(true, null, GetLocation(id));
+        }
+
+        public BaseResponse<List<Location>> GetByParentId([System.Web.Http.FromUri] long parent_id)
+        {
+            List<Location> locations = _context.Locations.Where<Location>(l => l.parent_id == parent_id).ToList();
+
+            return Helper<List<Location>>.GetJSONResponse(true, parent_id.ToString(), locations);
         }
 
         public Location GetLocation(long id)
