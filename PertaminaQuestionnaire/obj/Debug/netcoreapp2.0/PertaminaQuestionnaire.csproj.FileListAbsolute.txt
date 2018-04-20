@@ -1,0 +1,11 @@
+/Users/imaduddinaf/Documents/FUN/PertaminaQuestionnaireWeb/PertaminaQuestionnaire/obj/Debug/netcoreapp2.0/PertaminaQuestionnaire.csprojResolveAssemblyReference.cache
+/Users/imaduddinaf/Documents/FUN/PertaminaQuestionnaireWeb/PertaminaQuestionnaire/obj/Debug/netcoreapp2.0/PertaminaQuestionnaire.csproj.CoreCompileInputs.cache
+/Users/imaduddinaf/Documents/FUN/PertaminaQuestionnaireWeb/PertaminaQuestionnaire/obj/Debug/netcoreapp2.0/PertaminaQuestionnaire.AssemblyInfoInputs.cache
+/Users/imaduddinaf/Documents/FUN/PertaminaQuestionnaireWeb/PertaminaQuestionnaire/obj/Debug/netcoreapp2.0/PertaminaQuestionnaire.AssemblyInfo.cs
+/Users/imaduddinaf/Documents/FUN/PertaminaQuestionnaireWeb/PertaminaQuestionnaire/bin/Debug/netcoreapp2.0/PertaminaQuestionnaire.deps.json
+/Users/imaduddinaf/Documents/FUN/PertaminaQuestionnaireWeb/PertaminaQuestionnaire/bin/Debug/netcoreapp2.0/PertaminaQuestionnaire.runtimeconfig.json
+/Users/imaduddinaf/Documents/FUN/PertaminaQuestionnaireWeb/PertaminaQuestionnaire/bin/Debug/netcoreapp2.0/PertaminaQuestionnaire.runtimeconfig.dev.json
+/Users/imaduddinaf/Documents/FUN/PertaminaQuestionnaireWeb/PertaminaQuestionnaire/bin/Debug/netcoreapp2.0/PertaminaQuestionnaire.dll
+/Users/imaduddinaf/Documents/FUN/PertaminaQuestionnaireWeb/PertaminaQuestionnaire/bin/Debug/netcoreapp2.0/PertaminaQuestionnaire.pdb
+/Users/imaduddinaf/Documents/FUN/PertaminaQuestionnaireWeb/PertaminaQuestionnaire/obj/Debug/netcoreapp2.0/PertaminaQuestionnaire.dll
+/Users/imaduddinaf/Documents/FUN/PertaminaQuestionnaireWeb/PertaminaQuestionnaire/obj/Debug/netcoreapp2.0/PertaminaQuestionnaire.pdb
