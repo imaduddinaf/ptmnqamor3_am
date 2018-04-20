@@ -13,14 +13,6 @@ namespace PertaminaQuestionnaire.Controllers
         public LocationsController(PertaminaQADBContext context)
         {
             _context = context;
-
-            //if (_context.Locations.Count() == 0)
-            //{
-            //    _context.Locations.Add(Location.GetKP());
-            //    _context.Locations.Add(Location.GetMORIII());
-            //    _context.Locations.Add(Location.GetMORV());
-            //    _context.SaveChanges();
-            //}
         }
 
         [HttpGet]

@@ -8,9 +8,4 @@ namespace PertaminaQuestionnaire.Models
         public string name { get; set; }
         public long parent_id { get; set; }
     }
-
-    public class LocationJSON : Location 
-    {
-        public Location parent { get; set; }
-    }
 }

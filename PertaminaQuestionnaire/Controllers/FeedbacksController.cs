@@ -34,14 +34,8 @@ namespace PertaminaQuestionnaire.Controllers
         public BaseResponse<Feedback> GetById(int id)
         {
             Feedback feedback = _context.Feedbacks.FirstOrDefault(t => t.id == id);
-            FeedbackJSON feedbackJSON = (PertaminaQuestionnaire.Models.FeedbackJSON)feedback;
 
-            //if (feedback != null) {
-            //    LocationsController locationController = new LocationsController(_context);
-            //    feedback.location = locationController.GetLocation(feedback.location_id);
-            //}
-
-            return Helper<Feedback>.GetJSONResponse(true, null, feedbackJSON);
+            return Helper<Feedback>.GetJSONResponse(true, null, feedback);
         }
 
         public BaseResponse<List<Feedback>> GetByLocationId([System.Web.Http.FromUri] long location_id)
@@ -59,8 +53,7 @@ namespace PertaminaQuestionnaire.Controllers
             Feedback item = new Feedback
             {
                 is_like = is_like,
-                location_id = location_id//,
-                //location = locationController.GetLocation(location_id)
+                location_id = location_id
             };
 
             _context.Feedbacks.Add(item);

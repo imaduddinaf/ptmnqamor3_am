@@ -30,7 +30,6 @@ namespace PertaminaQuestionnaire
 
             string connString = @"Server=localhost,1433;Database=master;User Id=sa;Password=reallyStrongPwd123;Trusted_Connection=True;MultipleActiveResultSets=true;Integrated Security=false";
             services.AddDbContext<PertaminaQADBContext>(opt => opt.UseSqlServer(connString));
-            //services.AddDbContext<PertaminaQADBContext>(opt => opt.UseInMemoryDatabase("PertaminaQADBContext"));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

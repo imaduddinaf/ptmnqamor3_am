@@ -11,10 +11,5 @@ namespace PertaminaQuestionnaire.Models
             : base(options)
         {
         }
-
-        //protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        //{
-        //    optionsBuilder.UseSqlServer(@"Server=localhost,1433;Database=sql_server_demo;User Id=sa;Password=reallyStrongPwd123;Trusted_Connection=True;MultipleActiveResultSets=true");
-        //}
     }
 }

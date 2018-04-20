@@ -1,0 +1,19 @@
+﻿<Properties StartupConfiguration="{E0A1866F-0978-4E68-BB72-3288DBCA2980}|Default">
+  <MonoDevelop.Ide.ItemProperties.PertaminaQuestionnaire PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="PertaminaQuestionnaire/Controllers/FeedbacksController.cs">
+    <Files>
+      <File FileName="PertaminaQuestionnaire/Models/Feedback.cs" Line="10" Column="6" />
+      <File FileName="PertaminaQuestionnaire/Models/Location.cs" Line="10" Column="6" />
+      <File FileName="PertaminaQuestionnaire/Models/PertaminaQADBContext.cs" Line="13" Column="10" />
+      <File FileName="PertaminaQuestionnaire/Controllers/LocationsController.cs" Line="15" Column="32" />
+      <File FileName="PertaminaQuestionnaire/Controllers/FeedbacksController.cs" Line="37" Column="13" />
+      <File FileName="PertaminaQuestionnaire/Startup.cs" Line="13" Column="37" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>
