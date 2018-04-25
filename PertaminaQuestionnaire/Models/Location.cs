@@ -6,6 +6,6 @@ namespace PertaminaQuestionnaire.Models
     public class Location : BaseModel
     {
         public string name { get; set; }
-        public long parent_id { get; set; }
+        public Nullable<long> parent_id { get; set; }
     }
 }

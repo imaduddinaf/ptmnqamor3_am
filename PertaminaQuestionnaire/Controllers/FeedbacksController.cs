@@ -55,7 +55,8 @@ namespace PertaminaQuestionnaire.Controllers
             Feedback item = new Feedback
             {
                 is_like = is_like,
-                location_id = location_id
+                location_id = location_id,
+                date = DateTime.Now
             };
 
             _context.Feedbacks.Add(item);
